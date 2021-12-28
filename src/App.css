@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+img{
+    height: 20rem;
+    width: 20rem;
+    margin-top: 3rem;
+    margin-bottom:4rem;
+    margin-left:3rem;
+    border-radius: 4rem;
+    position: absolute;
+    box-shadow: 3rem 3rem 1.5rem 0.5rem rgb(141, 6, 6);
+}
+h1{
+   position: absolute;
+    margin-top:26rem;
+    margin-bottom: 5rem;
+    margin-left:3rem;
+}
+h3{  position:absolute;
+    margin-top:29rem;
+    margin-bottom: 5rem;
+    margin-left:3rem;  
+}
+p{
+    position:absolute;
+    margin-top:31rem;
+    margin-bottom: 5rem;
+    margin-left:3rem;   
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1:hover{
+    cursor: pointer;
+    text-transform: uppercase;
+    background-image: linear-gradient(90deg,red,green,blue);
+    background-clip: text;
+    letter-spacing: .5rem;
+    color:transparent;}
+   
+    h3:hover{
+        cursor: pointer;
+        letter-spacing: .5rem;
+    }
+p:hover{
+    cursor: pointer;
+    font-size: 2.4rem;
+    color: rgb(173, 8, 8);   
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+button{
+     margin-top:34rem ;
+     margin-left: 9rem;
+     padding: .5rem;
+     border: .3rem inset rgb(221, 221, 13);
+     border-radius: 1rem;
+     cursor: pointer;
+    }
